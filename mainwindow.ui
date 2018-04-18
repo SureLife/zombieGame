@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>788</width>
+    <height>577</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="doorW">
+    <property name="geometry">
+     <rect>
+      <x>17</x>
+      <y>220</y>
+      <width>52</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="doorN">
+    <property name="geometry">
+     <rect>
+      <x>215</x>
+      <y>17</y>
+      <width>45</width>
+      <height>52</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="doorE">
+    <property name="geometry">
+     <rect>
+      <x>411</x>
+      <y>215</y>
+      <width>52</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="doorS">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>411</y>
+      <width>45</width>
+      <height>52</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="roomPic">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>593</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="images.qrc">:/images/images/Room.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="chest1">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>90</y>
+      <width>41</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="zombie">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>100</y>
+      <width>61</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>0</y>
+      <width>181</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="water">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>10</y>
+      <width>35</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="beans">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>10</y>
+      <width>35</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="knife">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>80</y>
+      <width>35</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Fist">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>80</y>
+      <width>35</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pistol">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>120</y>
+      <width>35</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rifle">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>120</y>
+      <width>35</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="health">
+    <property name="geometry">
+     <rect>
+      <x>486</x>
+      <y>440</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="noWater">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>10</y>
+      <width>35</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="images.qrc">:/images/images/nowater.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="nobeans">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>10</y>
+      <width>35</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="images.qrc">:/images/images/nobeans.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="noknife">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>80</y>
+      <width>35</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="images.qrc">:/images/images/noknife.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="norifle">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>120</y>
+      <width>35</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="images.qrc">:/images/images/norifle.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="nopistol">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>120</y>
+      <width>35</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="images.qrc">:/images/images/nopistol.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="deadZombie">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>120</y>
+      <width>80</width>
+      <height>55</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="images.qrc">:/images/images/deadZombie.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitDoor">
+    <property name="geometry">
+     <rect>
+      <x>411</x>
+      <y>215</y>
+      <width>60</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="winScreen">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>600</width>
+      <height>500</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="images.qrc">:/images/images/winScreen.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="loseScreen">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>600</width>
+      <height>500</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="images.qrc">:/images/images/deadScreen.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>220</y>
+      <width>51</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="images.qrc">:/images/images/theActualGuy.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>roomPic</zorder>
+   <zorder>doorW</zorder>
+   <zorder>doorN</zorder>
+   <zorder>doorS</zorder>
+   <zorder>doorE</zorder>
+   <zorder>chest1</zorder>
+   <zorder>zombie</zorder>
+   <zorder>label</zorder>
+   <zorder>water</zorder>
+   <zorder>beans</zorder>
+   <zorder>knife</zorder>
+   <zorder>Fist</zorder>
+   <zorder>pistol</zorder>
+   <zorder>rifle</zorder>
+   <zorder>health</zorder>
+   <zorder>nobeans</zorder>
+   <zorder>noknife</zorder>
+   <zorder>norifle</zorder>
+   <zorder>nopistol</zorder>
+   <zorder>noWater</zorder>
+   <zorder>deadZombie</zorder>
+   <zorder>exitDoor</zorder>
+   <zorder>label_2</zorder>
+   <zorder>winScreen</zorder>
+   <zorder>loseScreen</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>788</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

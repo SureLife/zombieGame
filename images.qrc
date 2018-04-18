@@ -1,0 +1,28 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/images">
+        <file>images/DoorN.png</file>
+		<file>images/DoorS.png</file>
+		<file>images/DoorW.png</file>
+		<file>images/DoorE.png</file>
+		<file>images/Room.png</file>
+		<file>images/chest1.png</file>
+		<file>images/zombie.png</file>
+		<file>images/beans.png</file>
+		<file>images/Fist.png</file>
+		<file>images/knife.png</file>
+		<file>images/pistol.png</file>
+		<file>images/rifle.png</file>
+		<file>images/water.png</file>
+		<file>images/nobeans.png</file>
+		<file>images/noknife.png</file>
+		<file>images/nopistol.png</file>
+		<file>images/norifle.png</file>
+		<file>images/nowater.png</file>
+		<file>images/deadZombie.png</file>
+		<file>images/winScreen.png</file>
+		<file>images/deadScreen.png</file>
+		<file>images/exitDoor.png</file>
+		<file>images/theActualGuy.png</file>
+    </qresource>
+</RCC>
